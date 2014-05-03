@@ -1,0 +1,17 @@
+[ssh]
+pid: /var/run/sshd.pid
+start: etc/init.d/sshd start
+stop: etc/init.d/sshd stop
+status: unmonitor
+
+[smb]
+pid: /var/run/samba/smbd.pid
+start: /etc/init.d/smbd start
+stop: /etc/init/d/smbd stop
+status: monitor
+.
+.
+.
+.
+
+
