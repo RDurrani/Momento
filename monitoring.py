@@ -65,7 +65,7 @@ def actiononprocess(process, action):
 
 #process probe and starter
 def startifpid(process):
-	processid = (int)process.pid()
+	processid = process.pid()
 	if any(char.isdigit() for char in processid)==False:
         	subprocess.call(process.startadd, shell=True);
 		logmsg='The process, '+process.name+', is started successfully';
@@ -112,7 +112,7 @@ def processchecking():
 	for word in arrm:
 		if word.type=='ping':	
 			str1 = ping(word.ptype, word.port, word.ip);
-			if str1 = 'timeout':
+			if str1 == 'timeout':
 				str1 = 9999			
 			if int(str1)>word.latancy or str1.endswith('N/A'):
 				if word.fail == 'restart' or word.fail == 'stop':
@@ -124,13 +124,14 @@ def processchecking():
 								else:
 									actiononprocess(process, 'stop')
                                                 	break;
-				elif word.fail='alert':
+				elif word.fail =='alert':
 					#insert gsm module code here
 					print('---Loading---\n--Loading--\n');
-		
+				
 		elif word.type=='timer':
 			#timer(word.frequency, word.process);
 			#work in progress
+			print 'bc'
 
 		else:
 			print 'error'
@@ -141,5 +142,5 @@ def actiononpid():
         temparrp=readprocess();
 	arrp=temparrp[0:-1]
 	for eachprocess in arrp:
-		if eachprocess.status == 'monitor'
-			startifpid(eachprocess); 								
+		if eachprocess.status == 'monitor':
+			startifpid(eachprocess); 
