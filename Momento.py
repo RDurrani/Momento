@@ -4,10 +4,10 @@
 #Dated: 29/04/14
 #
 #Momento by MetaCortex
-#Team MetaCortex: RDurrani, Nasha Jr., M4v3Rick (Timmy) & Shuja
-#Programming by RDurrani & Nasha Jr.
+#Team MetaCortex: RDurrani, Muhammad-Umer(Nasha Jr.), M4v3Rick (Timmy) & Shuja
+#Programming by RDurrani & Muhammad-Umer(Nasha Jr.)
 #Testing and documentation by M4v3RicK (Timmy) & Shuja
-#Special thanks to Sabey (Sohaib Azad)
+#Special thanks to Sohaib Azad (Sabey)
 #
 #Incomplete features:
 # 1	Timer functionality (timer(min, pname))
@@ -37,6 +37,6 @@ if Momentopid!=0:
 #starting Momento
 print 'Starting Momento'
 while 1:
-	actiononpid()
-	processmonitor()
-	time.sleep(120)
+	actiononpid();
+	processchecking();
+	time.sleep(120);
