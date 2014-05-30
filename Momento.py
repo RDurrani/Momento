@@ -4,8 +4,8 @@
 #Dated: 29/04/14
 #
 #Momento by MetaCortex
-#Team MetaCortex: RDurrani(Razaullah Khan Durrani), Muhammad-Umer(Nasha Jr.), M4v3Rick (Timmy) & Shuja
-#Programming by RDurrani (Razaullah Khan Durrani) & Muhammad-Umer(Nasha Jr.)
+#Team MetaCortex: RDurrani (Razaullah K. Durrani), Muhammad-Umer(Nasha Jr.), M4v3Rick (Timmy) & Shuja
+#Programming by RDurrani (Razaullah K. Durrani) & Muhammad-Umer(Nasha Jr.)
 #Testing and documentation by M4v3RicK (Timmy) & Shuja
 #Special thanks to Sohaib Azad (Sabey)
 #
@@ -39,4 +39,4 @@ print 'Starting Momento'
 while 1:
 	actiononpid();
 	processchecking();
-	time.sleep(120);
+	time.sleep(10);
