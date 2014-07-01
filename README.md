@@ -28,7 +28,7 @@ All rules, conditions, actions, contacts numbers and groups for Momento are defi
 
 Dated: 29/04/14
 
-Momento Alpha 0.1 Prototype by MetaCortex
+Momento Alpha 0.1 Prototype by MetaCortex.
 Team MetaCortex: RDurrani (Razaullah K. Durrani), Muhammad-Umer (Nasha Jr.), M4v3Rick (Timmy) & Shuja
 
 Programming by RDurrani (Razaullah K. Durrani) & Muhammad-Umer (Nasha Jr.)
