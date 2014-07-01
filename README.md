@@ -1,7 +1,9 @@
 Momento
 =======
 
- A python based open source system for monitoring and automatically managing processes on Linux machines
+Project Incomplete, still in development stages. This is a prototype
+
+A python based open source system for monitoring and automatically managing processes on Linux machines
 
 To Start edit configurations files:
 1. Momento.cfg
@@ -41,5 +43,5 @@ Incomplete features:
 Dependencies: cat, nping, ConfigParser.py, twillo (for disfuct gsm module)
 Built and tested on Debian Wheezy, gedit, nano, Python 2.7.3
 
-contact by email: vento36 "at" gmail "dot" com
+contact by email: Razaullah.Durrani@gmail.com
 
